@@ -1,0 +1,7 @@
+interface:
+  display_name: "Smart Things Planner"
+  short_description: "从邮件或自然语言规划并创建 Things 3 待办"
+  default_prompt: "Use $mail-to-things to turn my email or natural-language request into workload-aware Things 3 candidates, preview them, and create only what I approve."
+
+policy:
+  allow_implicit_invocation: true

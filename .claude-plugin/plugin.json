@@ -1,0 +1,8 @@
+{
+  "name": "smart-things-planner",
+  "description": "Plan reviewed, workload-aware Things 3 tasks from Gmail or natural-language requests.",
+  "version": "0.1.0",
+  "author": {
+    "name": "NothingButKevin"
+  }
+}

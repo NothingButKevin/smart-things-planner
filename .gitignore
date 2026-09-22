@@ -1,0 +1,13 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# OAuth files and tokens must never enter the repository.
+client_secret*.json
+credentials*.json
+token*.json
+*.token
+.env

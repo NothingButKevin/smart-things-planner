@@ -1,0 +1,28 @@
+{
+  "name": "smart-things-planner",
+  "version": "0.1.0",
+  "description": "Turn Gmail and natural-language requests into reviewed, workload-aware Things 3 tasks.",
+  "author": {
+    "name": "NothingButKevin",
+    "url": "https://github.com/NothingButKevin"
+  },
+  "homepage": "https://github.com/NothingButKevin/smart-things-planner#readme",
+  "repository": "https://github.com/NothingButKevin/smart-things-planner",
+  "license": "MIT",
+  "keywords": ["things-3", "gmail", "productivity", "mcp", "codex", "claude-code"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Smart Things Planner",
+    "shortDescription": "Plan reviewed Things 3 tasks from Gmail or natural language",
+    "longDescription": "Scans Gmail read-only or accepts natural-language requests, balances work across current Things 3 workload, and creates only tasks the user approves.",
+    "developerName": "NothingButKevin",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://github.com/NothingButKevin/smart-things-planner",
+    "defaultPrompt": [
+      "Use $mail-to-things to scan my configured Gmail accounts and preview candidate Things tasks.",
+      "Use $mail-to-things to schedule this request around my current Things workload, then ask before creating anything."
+    ],
+    "brandColor": "#E65A3A"
+  }
+}
