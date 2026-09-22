@@ -95,6 +95,14 @@ python3 -m venv .venv
 
 The repository contains both Codex and Claude Code plugin metadata. The installer remains the recommended setup because it creates an isolated Python environment and supports multiple Gmail accounts.
 
+## Disclaimer
+
+This project was developed with AI assistance, and its results depend heavily on the capabilities and behavior of the AI model being used. Email interpretation, task extraction, classification, workload estimates, and scheduling suggestions may be incomplete or incorrect.
+
+Always review the generated task preview, especially titles, deadlines, dates, links, and omitted emails, before approving any changes to Things. Do not rely on this project as the sole system for tracking important academic, professional, financial, medical, legal, or time-sensitive obligations.
+
+The authors and contributors are not responsible for missed tasks, incorrect schedules, overlooked messages, or any resulting loss or damage. By using this project, you accept responsibility for verifying its output and maintaining appropriate backup reminders or tracking systems.
+
 ## License
 
 [MIT](LICENSE)
